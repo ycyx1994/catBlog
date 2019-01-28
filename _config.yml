@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Sean-Blog
+title: SeanBlog
 subtitle:
 description:
 keywords:
-author: Sean Yang
-language: zh-CN
+author: Sean
+language: zh-Hans
 timezone:
 
 # URL
