@@ -165,3 +165,11 @@ theme_config:
     opacity: 0.5 # the opacity of line: 0~1
     zIndex: -1 # z-index property of the background
     count: 99 # the number of lines
+  
+  google_analytics: UA-133379214-1
+
+  # Tencent analytics ID
+  tencent_analytics: 66169713
+
+  # Google Analytics
+  google_analytics: UA-133379214-1
