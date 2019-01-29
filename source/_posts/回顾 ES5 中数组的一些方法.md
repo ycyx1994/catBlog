@@ -67,7 +67,7 @@ console.log(sum2);  // [4, 8, 12]
 
 
 
-###3.filter
+### 3.filter
 
 - 简介： 
 
