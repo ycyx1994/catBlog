@@ -1,0 +1,89 @@
+# nexT主题配置
+theme_config:
+  # 社交网络
+  social:
+    GitHub: https://github.com/ycyx1994 || github
+    E-Mail: mailto:ycyx1994@163.com || envelope
+    Weibo: https://weibo.com/ycyx1994 || weibo
+    #Google: https://plus.google.com/yourname || google
+    #Twitter: https://twitter.com/yourname || twitter
+    #FB Page: https://www.facebook.com/yourname || facebook
+    #VK Group: https://vk.com/yourname || vk
+    #StackOverflow: https://stackoverflow.com/yourname || stack-overflow
+    #YouTube: https://youtube.com/yourname || youtube
+    Instagram: https://instagram.com/sean_yx94 || instagram
+    #Skype: skype:yourname?call|chat || skype
+
+  # 代码高亮
+  highlight_theme: night
+
+  # 头像
+  avatar: 
+    # in theme directory(source/images): /images/avatar.gif
+    # in site  directory(source/uploads): /uploads/avatar.gif
+    # You can also use other linking images.
+    url: /uploads/avatar.jpg
+    # If true, the avatar would be dispalyed in circle.
+    rounded: false
+    # The value of opacity should be choose from 0 to 1 to set the opacity of the avatar.
+    opacity: 1
+    # If true, the avatar would be rotated with the cursor.
+    rotated: false
+
+  # 字体
+  font:
+    enable: false
+
+    # Uri of fonts host. E.g. //fonts.googleapis.com (Default).
+    host:
+
+    # Font options:
+    # `external: true` will load this font family from `host` above.
+    # `family: Times New Roman`. Without any quotes.
+    # `size: xx`. Use `px` as unit.
+
+    # Global font settings used for all elements in <body>.
+    global:
+      external: true
+      family: Lato
+      size:
+
+    # Font settings for Headlines (H1, H2, H3, H4, H5, H6).
+    # Fallback to `global` font settings.
+    headings:
+      external: true
+      family: Roboto Slab
+      size:
+
+    # Font settings for posts.
+    # Fallback to `global` font settings.
+    posts:
+      external: true
+      family:
+
+    # Font settings for Logo.
+    # Fallback to `global` font settings.
+    logo:
+      external: true
+      family:
+      size:
+
+    # Font settings for <code> and code blocks.
+    codes:
+      external: true
+      family:
+      size:
+
+  canvas_nest:
+    enable: true
+    onmobile: true # display on mobile or not
+    color: '0,0,255' # RGB values, use ',' to separate
+    opacity: 0.5 # the opacity of line: 0~1
+    zIndex: -1 # z-index property of the background
+    count: 99 # the number of lines
+
+  # Tencent analytics ID
+  tencent_analytics: 66169713
+
+  # Google Analytics
+  google_analytics: UA-133379214-1
